@@ -1,0 +1,103 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 100px;
+}
+.nav-style {
+    background-color: #fff;
+    border-bottom: 1px solid black;
+}
+
+.nav-float {
+    float: right;
+}
+#myName {
+    position: relative;
+    background: #4aaaa5;
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+    padding: 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    background: #ffffff;
+    background: url(../images/extra_clean_paper.png);
+
+}
+.content-title,
+.sidebar-title {
+    color: #4eaaa4;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#Portfolio-Pic {
+    width: 200px;
+    clear: both;
+}
+
+.clearfix {
+    overflow: auto;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666666;
+    color: #cccccc;
+    border-top: 5px solid #4eaaa4;
+    text-align: center;
+}
+.content-title hr,
+.sidebar-title hr {
+    margin-left: 34px;
+    margin-right: 34px;
+    background: #cccccc;
+    height: 3px;
+    border: none;
+    overflow: hidden;
+}
+.connect li{
+    float; right;
+}
+.img-fluid {
+    width: 100%;
+    float: left;
+    margin-right: 3px;
+    margin-top: 20px;
+}
+.Label {
+    text-align: center;
+    background-color: #4eaaa4;
+    padding: 10px;
+    color: #fff;
+    transition: transform 300ms ease-in-out;
+}
+.col-md-12 {
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -54px;
+    text-align:center;
+    width:40%;   
+}
+.tcol-md-6 {
+    margin:0 auto;
+    text-align:center;
+}
+
+.container {
+    text-align:center;
+}
