@@ -1,34 +1,42 @@
 <!-- Homework Assignment 1 - Portfolio Contact Page -->
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Trish Mederos</title>
-  <link rel="icon" type="image/x-icon"  href="assets/images/bird.png" sizes="32x32">
-  <!-- Link in the style and reset ccs files -->
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Trish Mederos</title>
+    <link rel="icon" type="image/x-icon"  href="assets/images/bird.png" sizes="32x32">
+    <!-- Link in the style and reset ccs files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap style sheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Local style sheet  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-  <!--  -->
+<!-- -->
   <body>
-  <!-- Top Header Section -->
-  <header>
-    <!-- Top Header Section -->
-    <div class="menuBar">
-      <!-- Name Box  -->
-      <div id="myName">
-        <h1>Trish Mederos</h1>
-      </div>
-      <!-- Nav - Menu options Section  -->
-      <div id="menu">
-        <!-- Three choices: About/Portfolio/Contact -->
-        <p><a href="index.html">About</a></p>
-          <h6>|</h6>
-        <p><a href="portfolio.html">Portfolio</a></p>
-          <h6>|</h6>
-        <p><a href="#">Contact</a></p>
-      </div>
+  <!--        -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" id="myName"  href="#">Trish Mederos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <!--<ul class="navbar-nav"> -->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">About</a>
+        </li>
+      </ul>
     </div>
-  </header>
+  </nav>
   <!---->
   <!-- Contact Section  -->
   <div id="wrapper">
