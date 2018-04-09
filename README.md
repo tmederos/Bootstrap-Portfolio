@@ -23,4 +23,6 @@ Check out portfolio here: https://tmederos.github.io/Bootstrap-Portfolio/
 ![Screenshot](https://github.com/tmederos/Bootstrap-Portfolio/blob/master/assets/images/screen-shot-3.jpg)
 
 
-Author - Trish Mederos
+## Author
+
+* **Trish Mederos**
