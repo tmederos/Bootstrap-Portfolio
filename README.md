@@ -5,7 +5,7 @@
 Initial bootstrap portfolio for University of Arizona Coding Bootcamp.
 
 ---
-Check out portfolio here: https://tmederos.github.io/Basic-Portfolio/
+Check out portfolio here: https://tmederos.github.io/Bootstrap-Portfolio/
 
 ---
 ## Screenshot About Page
